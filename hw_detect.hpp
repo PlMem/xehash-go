@@ -70,8 +70,10 @@
 #endif
 
 #if defined(__aarch64__)
+#ifndef __APPLE__
 #include <asm/hwcap.h>
 #include <sys/auxv.h>
+#endif
 #define HAS_ARM_HW
 #endif
 
