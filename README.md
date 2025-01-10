@@ -1,6 +1,6 @@
 # xehash
 
-xehash is a variant of Cryptonight-GPU algorithm, with parameters below:
+xehash is a variant of Cryptonight-GPU algorithm (forked from [fphash](https://github.com/CyberChainXyz/fphash-go)), with parameters below:
 
 ```
 MEMORY = 64 * 1024
